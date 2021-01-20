@@ -1,0 +1,40 @@
+@value makerPuple, makerWhite from '/src/common/colors.css';
+
+.form{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+    background: makerPuple;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input{
+    width: 86%;
+    height: 50%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5em;
+}
+
+.button{
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+    margin-right: 0;
+    color: makerPuple;
+    background-color: makerWhite;
+    border: 1px transparent solid;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: makerPuple;
+    color: makerWhite;
+    border: 1px makerWhite solid;
+}

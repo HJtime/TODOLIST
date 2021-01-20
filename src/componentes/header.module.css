@@ -1,0 +1,16 @@
+@value makerWhite, makerPuple from '/src/common/colors.css';
+
+.header{
+    height: 10%;
+    background: makerPuple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title{
+    color: makerWhite;
+    font-size: 1.5em;
+}

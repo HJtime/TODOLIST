@@ -1,0 +1,14 @@
+@value makerWhite, makerPuple from '/src/common/colors.css';
+
+.list{
+    height: 80%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow-y: auto;
+}
+
+.list::-webkit-scrollbar{width: 9px;}
+.list::-webkit-scrollbar-track{background-color: makerLightPuple;}
+.list::-webkit-scrollbar-thumb{background-color: makerPuple;}

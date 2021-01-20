@@ -1,0 +1,51 @@
+@value makerWhite, makerGrey, makerRed, makerGreen, makerBlack, makerPuple from '/src/common/colors.css';
+
+.item{
+    width: 85%;
+    padding: 1em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desc{
+    font-size: 1.5em;
+    width: 85%;
+    text-align: left;
+}
+
+.desc.nope{
+    color: makerBlack;
+}
+
+.desc.clear{
+    color: makerGrey;
+    text-decoration: line-through;
+}
+
+.btnbox{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1.2em;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.check{
+    color: makerPuple;
+}
+
+.delete{
+    color: makerGrey;
+}
