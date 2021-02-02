@@ -1,3 +1,21 @@
+# 개요
+REACT, CSS를 사용한 투두리스트
+[VIEW](https://hjtime.github.io/TODOLIST/)
+
+## SKILL
+* REACT
+* CSS
+
+## 기능
+1. 리스트 등록
+2. 리스트 삭제
+3. 완료된 할일 체크
+
+
+## 실행 화면
+1. 메인 화면
+<img src="https://user-images.githubusercontent.com/72139168/106561078-68421780-656b-11eb-8ef6-256882fde794.PNG" width="700" height="370">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
